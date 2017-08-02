@@ -1,0 +1,48 @@
+body, .pagination li a, .post .meta .date, .nav-pills li a {color: rgba(102,102,102,1) }
+h1, h2, h3, h4, h5, h6, .main-content .single-post blockquote {color: rgba(17,17,17,1)}
+a, .highlight, .nav>li>a:hover, .nav>li>a:focus,
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus, .widget-search buttom, 
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.btn-default, .btn-default:hover, .btn-primary, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.active>a:focus { color: rgba(255,255,255,1)}
+.services .media i {color: rgba(248,66,66,1) }
+a:hover, a:focus {color: rgba(248,66,66,0.8)}
+
+textarea.form-control:focus, .navbar-default .navbar-toggle .icon-bar, footer.footer-home {background: rgba(255,255,255,1)}
+.btn-default { background: rgba(248,66,66,1)}
+.btn-default:hover {background: rgba(248,66,66,0.9)}
+.btn-primary{background: rgba(37,37,42,1)}
+.btn-primary:hover {background: rgba(37,37,42,0.9);}
+input.form-control, textarea.form-control, .pagination li a{background: rgba(238,238,238,1)}
+input.form-control:hover,
+input.form-control:focus,
+textarea.form-control:hover,
+textarea.form-control:focus,
+.services .media .media-body a,
+.main-content a, .main-content .post a.bordered {border: 1px solid rgba(248,66,66,1)}
+.jumbotron{background: rgba(248,66,66,1) url(../images/banner.jpg) no-repeat 50% 100%}
+.main-navigation, nav.navbar.navbar-default{background: rgba(249,67,66,1)}
+nav.nav.navbar-nav li a {color: rgba(255,255,255,0.6)}
+.featured-work, footer, .page-title {background: rgba(229,229,229,1)}
+.main-content .post, .widget-links ul li, .widget-recent-posts .recent-posts{border-bottom:1px solid rgba(229,229,229,1)}
+.featured-work .work-info .meta, .featured-work .work-info ul li span, .post .meta, .small-heading h6 {color: rgba(157,157,157,1)}
+
+.unbordered-a a {border: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

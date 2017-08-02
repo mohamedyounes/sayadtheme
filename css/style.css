@@ -1,0 +1,216 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:15px;
+	color: rgba(102,102,102,1);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	color: rgba(17,17,17,1);
+}
+a {
+	color: rgba(248,66,66,1);
+	font-weight:700;
+}
+a:hover, a:focus {
+	color: rgba(248,66,66,0.8);
+	text-decoration: underline;
+}
+.btn{
+	font-weight:700;
+	border:none;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+}
+.btn-default{
+	color: rgba(255,255,255,1);
+	background: rgba(248,66,66,1);
+	padding:12px 20px;
+}
+.btn-default:hover {
+	color: rgba(255,255,255,1);
+	background: rgba(248,66,66,0.9);
+}
+.btn-primary{
+	color: rgba(255,255,255,1);
+	background: rgba(37,37,42,1);
+	padding:12px 20px;
+}
+.btn-primary:hover {
+	color: rgba(255,255,255,1);
+	background: rgba(37,37,42,0.9);
+}
+input.form-control, textarea.form-control{
+	background: rgba(238,238,238,1);
+	padding:21px 20px;
+    width: 80%;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+input.form-control:hover, input.form-control:focus, textarea.form-control:hover, textarea.form-control:focus{
+	background: rgba(255,255,255,1);
+	border: 1px solid rgba(248,66,66,1);
+	box-shadow:none;
+}
+.highlight{
+	color: rgba(248,66,66,1);
+}
+/* end base */
+
+/* jumbotron */
+.jumbotron{
+	background: rgba(248,66,66,1) url(../images/banner.jpg) no-repeat 50% 100%;
+	background-size:cover;
+	color:#fff;
+	padding:30px 0 60px 0;
+	margin-bottom: 0;
+}
+.jumbotron .header {
+	padding: 30px 0 20px  0
+}
+.jumbotron .lead{
+	margin-bottom:50px;
+}
+
+/* navigation */
+.main-navigation{
+	background: rgba(249,67,66,1);
+}
+nav.navbar.navbar-default{
+	background: rgba(249,67,66,1);
+	border:none;
+	border-radius: 0;
+	padding: 18px 0;
+	margin: 0;
+}
+nav.nav.navbar-nav li a {
+	color: rgba(255,255,255,0.6);
+	text-align:center;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+	color:rgba(255,255,255,1);
+	text-decoration: underline;
+	background:none;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+	color:rgba(255,255,255,1);
+	text-decoration: underline;
+	background:none;
+}
+
+/* brand */
+.navbar-brand{
+	margin: 0;
+	padding: 8px 0 0 0;
+}
+
+/* toggle */
+.navbar-toggle{
+	border: none;
+	margin-right: 0;
+}
+.navbar-default .navbar-toggle{
+	border-color: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: rgba(255,255,255,1);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+	background-color: transparent;
+}
+.navbar-collapse{
+	box-shadow: none;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form{
+	border: none;
+}
+/* end jambotron */
+
+/* services */
+.services{
+	padding: 60px 0;
+}
+.services .media{
+	margin-bottom:30px;
+  min-height: 115px
+}
+.services .media i {
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #f84242;
+  text-align: center
+}
+.services .media .mobile {
+  font-size: 76px !important;
+}
+.services .media .media-body a {
+  border: 2px solid rgba(248,66,66,1);
+  padding: 7px 12px;
+  border-radius: 5px;
+}
+.services .media-photography{
+	margin-bottom: 0;
+}
+/* end services */
+
+/* featured work */
+.featured-work{
+	background: rgba(229,229,229,1);
+	padding: 60px 0;
+	position:relative;
+}
+.featured-work .work-info .meta {
+	font-size:13px;
+	color: rgba(157,157,157,1);
+	margin-bottom:30px;
+}
+.featured-work .work-info ul {
+	list-style:none;
+	padding: 0;
+	margin-bottom: 30px;
+}
+.featured-work .work-info ul li span {
+	text-transform:uppercase;
+	font-size:11px;
+	color: rgba(157,157,157,1);
+}
+.home-featured-image{
+	position:absolute;
+	right: 0;
+	width: 50%;
+}
+/* end featured work */
+
+/* stay connected */
+.stay-connected {
+	padding: 40px 0 40px 0;
+}
+.heading {
+	margin-bottom:30px;
+}
+/* end stay connected */
+
+/* footer */
+footer{
+	background: rgba(229,229,229,1);
+	padding:30px 0 ;
+}
+footer.footer-home{
+    background: rgb(255, 255, 255);
+	padding-bottom: 30px;
+}
+.social-icons a{
+	display:inline-block;
+	padding: 10px 5px;
+}
+/* end footer */
